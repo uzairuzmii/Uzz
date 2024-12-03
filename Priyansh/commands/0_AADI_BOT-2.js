@@ -1,4 +1,4 @@
- fs = global.nodemodule["fs-extra"];
+ ccccc fs = global.nodemodule["fs-extra"];
 module.exports.config = {
   name: "AADI BOT 2",
   version: "1.0.1",
