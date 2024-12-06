@@ -15,7 +15,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
         if (event.body.indexOf("pepsi")==0 || event.body.indexOf("Pepsi")==0 || event.body.indexOf("PEPSI")==0 || event.body.indexOf("Coldaring")==0) {
                 var msg = {
                                 body: "=𝐎𝐰𝐧𝐞𝐫 ➻  𝐊𝐇𝐀𝐍   𝐒𝐀𝐇𝐀𝐁 \n__________________________________\n\n𝐘𝐚𝐚 𝐋𝐨𝐨 𝐁𝐚𝐁𝐲 𝐏𝐄𝐏𝐒𝐈\n__________________________________ ",
-                                attachment: fs.createReadStream(__dirname + `/noprefix/Pin_di_Shoaib_nazir_su_Quick_Saves(360P).mp4`)
+                                attachment: fs.createReadStream(__dirname + `/noprefix/17a1dba0466065978ecde714c2ddbb72.gif`)
                         }
                         api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🥂", event.messageID, (err) => {}, true)
