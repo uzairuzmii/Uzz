@@ -20,7 +20,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 react.includes("I LOVE") ||
 react.includes("i love")) {
 		var msg = {
-				body: `=𝐎𝐰𝐧𝐞𝐫 ➻  𝐒𝐡𝐚𝐚𝐧 𝐊𝐡𝐚𝐧 𝐊 \n__________________________________\n\n🩷 🖤 𝐌𝐄𝐑𝐀 𝐁𝐀𝐁𝐘 𝐈 𝐋𝐎𝐕𝐄 𝐘𝐎𝐔 𝐓𝐎𝐎 𝐉𝐀𝐀𝐍𝐔 😘😘\n__________________________________`,attachment: fs.createReadStream(__dirname + `/noprefix/793696f8979ec67925056894898af32a.gif`)
+				body: `=𝐎𝐰𝐧𝐞𝐫 ➻  𝐊𝐇𝐀𝐍  𝐒𝐀𝐇𝐀𝐁 \n__________________________________\n\n🩷 🖤 𝐌𝐄𝐑𝐀 𝐁𝐀𝐁𝐘 𝐈 𝐋𝐎𝐕𝐄 𝐘𝐎𝐔 𝐓𝐎𝐎 𝐉𝐀𝐀𝐍𝐔 😘😘\n__________________________________`,attachment: fs.createReadStream(__dirname + `/noprefix/793696f8979ec67925056894898af32a.gif`)
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🙈", event.messageID, (err) => {}, true)
