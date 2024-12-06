@@ -15,8 +15,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
         if (event.body.indexOf("Coffee")==0 || event.body.indexOf("coffee")==0 || event.body.indexOf("COFFEE ")==0 || event.body.indexOf("cofi")==0) {
                 var msg = {
                                 body: "=𝐎𝐰𝐧𝐞𝐫 ➻  𝐊𝐇𝐀𝐍  𝐒𝐀𝐇𝐀𝐁 \n__________________________________\n\n𝐘𝐚𝐚 𝐋𝐨𝐨 𝐁𝐚𝐁𝐲 𝐂𝐎𝐅𝐅𝐄𝐄 \n__________________________________ ",
-                                attachment: fs.createReadStream(__dirname + `/noprefix/ad9f5953c90b18f50f78bfd421265d3e.gif
-`)
+                                attachment: fs.createReadStream(__dirname + `/noprefix/ad9f5953c90b18f50f78bfd421265d3e.gif`)
                         }
                         api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("☕", event.messageID, (err) => {}, true)
