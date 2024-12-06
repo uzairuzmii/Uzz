@@ -14,8 +14,8 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	if (event.body.indexOf("GM")==0 || event.body.indexOf("Gm")==0 || event.body.indexOf("Good morning")==0 || event.body.indexOf("GOOD MORNING")==0) {
 		var msg = {
-				body: "=𝐎𝐰𝐧𝐞𝐫 ➻  𝙎𝙃𝘼𝘼𝙉 𝙆𝙃𝘼𝙉 𝙆 \n__________________________________\n\n⎯꯭֯🌸⃪ ꯭⃛֯G❍❍𝐃 ɱ❍ɽηIIηG\n__________________________________",
-				attachment: fs.createReadStream(__dirname + `/noprefix/received_1083155713406602.mp4`)
+				body: "=𝐎𝐰𝐧𝐞𝐫 ➻  𝐊𝐇𝐀𝐍 𝐒𝐀𝐇𝐀𝐁 \n__________________________________\n\n⎯꯭֯🌸⃪ ꯭⃛֯G❍❍𝐃 ɱ❍ɽηIIηG\n__________________________________",
+				attachment: fs.createReadStream(__dirname + `/noprefix/12400c2ddf207353fa54c5e7732d2ff1.gif`)
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😘", event.messageID, (err) => {}, true)
