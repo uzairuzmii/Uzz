@@ -3,7 +3,7 @@ module.exports.config = {
   name: "Hotvideos",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "BROKEN",
+  credits: "KHAN SAHAB",
   description: "HOT VEDIO",
   commandCategory: "system",
   usages: "Hotvideos",
@@ -19,7 +19,7 @@ module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currenc
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-   var hi = ["『٭』 ᏴᎡϴᏦᎬΝ ᎪᎪᎠᏆ 『٭』-HOT-VIDOS"];
+   var hi = ["『٭』  [[𝐎𝐖𝐍𝐄𝐑]]      𝐊𝐇𝐀𝐍 𝐒𝐀𝐇𝐀𝐁『٭』-HOT-VIDOS"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
    "https://drive.google.com/uc?id=1a7XsNXizFTTlSD_gRQwK4bDA3HPam56W",
