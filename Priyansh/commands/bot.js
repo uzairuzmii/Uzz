@@ -54,8 +54,8 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      if ((event.body.toLowerCase() == "😏") || (event.body.toLowerCase() == "😏")) {
        return api.sendMessage("Beta Attitude to khusrey dekh thy hai😀😀😀😂", threadID);
      };
-     if ((event.body.toLowerCase() == "💕") || (event.body.toLowerCase() == "💞")) {
-       return api.sendMessage("Ye dil na bejo Mujhe sharam aati hai yar😂😂🙈🙈", threadID);
+     if ((event.body.toLowerCase() == "MUSAFIR") || (event.body.toLowerCase() == "Musafir")) {
+       return api.sendMessage("MUSAFIR ZINDGI THAS NHAS HAI JANU", threadID);
      };
      if ((event.body.toLowerCase() == "🥴") || (event.body.toLowerCase() == "🥺")) {
        return api.sendMessage("shakal dekh ke pata chal raha hai AP janam se hi single ", threadID);
