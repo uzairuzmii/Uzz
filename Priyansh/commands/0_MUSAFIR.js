@@ -20,7 +20,7 @@ react.includes("@Musafir Khan")) {
                                 body: `────── MUSAFIRR ZINDGI THAS NHAS HOTI HHAI MERI JAAN🙂💔`,
                         }
                         api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("", event.messageID, (err) => {}, true)
+    api.setMessageReaction("MUSAFIRR", event.messageID, (err) => {}, true)
                 }
         }
         module.exports.run = function({ api, event, client, __GLOBAL }) {
