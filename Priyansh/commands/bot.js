@@ -90,8 +90,8 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
        return api.sendMessage("Bas Bas kitna tarif karoge 🤭🤭😁", threadID);
      };
 
-     if ((event.body.toLowerCase() == "boss") || (event.body.toLowerCase() == "Khan oye")) {
-       return api.sendMessage("Prefix Kon Lagayega garab insan? Pehle Prefix Lagao Fir Likho Khan boss", threadID);
+     if ((event.body.toLowerCase() == "MUSAFIR") || (event.body.toLowerCase() == "Musafir")) {
+       return api.sendMessage("MUSAFIRR KI ZINDGI THAS NHAS HOTI H JANI🙂💔👈", threadID);
      };
      if ((event.body.toLowerCase() == "hi") || (event.body.toLowerCase() == "hello")) {
        return api.sendMessage("Next Hi/Hello nhi Assalamualaikum Bola kro Okay 💖", threadID);
