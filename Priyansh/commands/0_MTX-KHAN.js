@@ -12,10 +12,10 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
         var { threadID, messageID } = event;
-        if (event.body.indexOf("UZAIR RAJPUT")==0 || event.body.indexOf("Uzair")==0 || event.body.indexOf("uzair rajput")==0 || event.body.indexOf("‎@꯭𒄬•- † 𝐘̬̬̬̬̬̬̚͜Ꮗ'ɽ ⁽๏⁾𓆩𝐒ꪊ̄ӄ๏๏𝐍𓆪᭄ 𓐩𓐩⸙𓆥†⃝⃞⸙ 3:) ;* 0:) ۦۦ")==0) {
+        if (event.body.indexOf("Owner")==0 || event.body.indexOf("owner")==0 || event.body.indexOf("Admin")==0 || event.body.indexOf("admin"‎)==0) {
                 var msg = {
                                 body: "=𝐎𝐰𝐧𝐞𝐫 ➻  𝑼𝒛𝒂𝒊𝒓 𝑹𝒂𝒋𝒑𝒖𝒕  \n__________________________________\n\n𝐎𝐰𝐧𝐞𝐑 𝑴𝒓𝑼𝒛𝒂𝒊𝒓𝑿𝒙𝑿-𝑴𝑻𝑿  💚✨\n__________________________________ ",
-                                attachment: fs.createReadStream(__dirname + `/mtxuzair/FB_IMG_1731385004342.jpg`)
+                                attachment: fs.createReadStream(__dirname + `/mtxuzair/join.jpeg`)
                         }
                         api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🤴", event.messageID, (err) => {}, true)
