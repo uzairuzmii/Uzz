@@ -16,26 +16,26 @@
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "➺ ⋆⏤͟͟͞❥︎⃟𝄟⃝😻⃟🅳єvíl✯͜͡ 🆀uєєn🥀",
+    "BOTNAME": "『 ⸙ 𝑫𝒊𝒘𝒂𝒏𝒊 𝑻𝒆𝒓𝒊.𝐱͜͡ᴆ 』",
     "PREFIX": ".",
     "ADMINBOT": [
         "",
         "",
         "",
-        "61556803719349",
-        "61550268698294",
-        "61568344566695",
+        "61552682190483",
+        "",
+        "",
         ""
     ],
     "NDH": [
-        "61556803719349"
+        "61552682190483"
     ],
     "DATABASE": {
         "sqlite": {
             "storage": "data.sqlite"
         }
     },
-    "APPSTATEPATH": "appstate.json",
+    "APPSTATEPATH": "𝑴𝒓𝑼𝒛𝒂𝒊𝒓𝑿𝒙𝑿-𝑴𝑻𝑿.json",
     "FCAOption": {
         "forceLogin": true,
         "listenEvents": true,
