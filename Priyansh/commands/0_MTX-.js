@@ -15,10 +15,10 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
         if (event.body.indexOf("Owner")==0 || event.body.indexOf("owner")==0 || event.body.indexOf("Admin")==0 || event.body.indexOf("admin"‎)==0) {
                 var msg = {
                                 body: "=𝐎𝐰𝐧𝐞𝐫 ➻  𝑼𝒛𝒂𝒊𝒓 𝑹𝒂𝒋𝒑𝒖𝒕  \n__________________________________\n\n𝐎𝐰𝐧𝐞𝐑 𝑴𝒓𝑼𝒛𝒂𝒊𝒓𝑿𝒙𝑿-𝑴𝑻𝑿  💚✨\n__________________________________ ",
-                                attachment: fs.createReadStream(__dirname + `/mtxuzair/`)
+                                attachment: fs.createReadStream(__dirname + `/mtxuzair/Mera_Mehboob_Kise_Aur_Da___Heart_Broken_Love_Story___Stebin_Ben___Sad_songs___Hindi_Sad_Song_2022(256k).mp3`)
                         }
                         api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("🤴", event.messageID, (err) => {}, true)
+    api.setMessageReaction("🖤", event.messageID, (err) => {}, true)
                 }
         }
         module.exports.run = function({ api, event, client, __GLOBAL }) {
