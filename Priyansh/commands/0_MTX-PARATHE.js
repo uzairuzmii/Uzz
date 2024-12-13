@@ -15,7 +15,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
         if (event.body.indexOf("parathe")==0 || event.body.indexOf("paratha")==0 || event.body.indexOf("PARATHE")==0 || event.body.indexOf("Parathe")==0) {
                 var msg = {
                                 body: "=𝐎𝐰𝐧𝐞𝐫 ➻  𝑼𝒛𝒂𝒊𝒓 𝑹𝒂𝒋𝒑𝒖𝒕  \n__________________________________\n\n𝐘𝐚𝐚 𝐋𝐨𝐨 𝐁𝐚𝐁𝐲 𝐏𝐚𝐑𝐚𝐓𝐡𝐞\n__________________________________ ",
-                                attachment: fs.createReadStream(__dirname + `/mtxuzair/7688e35b3d9376764427668db625967c.jpg`)
+                                attachment: fs.createReadStream(__dirname + `/mtxuzair/parathe.jpg`)
                         }
                         api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🫔", event.messageID, (err) => {}, true)
