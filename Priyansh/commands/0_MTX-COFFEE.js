@@ -15,7 +15,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
         if (event.body.indexOf("Coffee")==0 || event.body.indexOf("coffee")==0 || event.body.indexOf("COFFEE ")==0 || event.body.indexOf("cofi")==0) {
                 var msg = {
                                 body: "=𝐎𝐰𝐧𝐞𝐫 ➻  𝑼𝒛𝒂𝒊𝒓 𝑹𝒂𝒋𝒑𝒖𝒕  \n__________________________________\n\n𝐘𝐚𝐚 𝐋𝐨𝐨 𝐁𝐚𝐁𝐲 𝐂𝐎𝐅𝐅𝐄𝐄 \n__________________________________ ",
-                                attachment: fs.createReadStream(__dirname + `/mtxuzair/Pinterest-boomerang.mp4`)
+                                attachment: fs.createReadStream(__dirname + `/mtxuzair/images (3).jpeg`)
                         }
                         api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("☕", event.messageID, (err) => {}, true)
