@@ -59,7 +59,7 @@ https://www.instagram.com/itxuzair449/profilecard/?igsh=bzRuemE4cWE0cDBy￼
 
 ☣️Email: uzairrajput1267@gmail.com
 
-⚠️Wp: +92 3198188449`, attachment: fs.createReadStream(__dirname + "/cache/uz.jpeg")} ,threadID));
+⚠️Wp: +92 3198188449`, attachment: fs.createReadStream(__dirname + "/cachejoin.jpeg")} ,threadID));
         }
         else {
                 try {
